@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    border: solid none;
+    background-color: rgb(238, 192, 200);
+    margin: auto;
+    border-radius: 20px 20px 0 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.logo, .content, .icon{
+    margin-top: 10px;
+}
+.logo {
+    font-family: sans-serif;
+}
+.content ul{
+    display: flex;
+    list-style: none;
+}
+ 
+.content ul li a {
+    text-decoration: none;
+    padding: 20px;
+    font-family: sans-serif;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.content ul li a:hover{
+    background-color: rgb(182, 180, 180);
+    border-radius: 20px;
+}
+
+.icon button {
+    width: 50px;
+    border: solid 2px rgb(149, 147, 147);
+    border-radius: 20px;
+    background-color: none;
+    cursor: pointer;
+}
+
+.icon .material-icons{
+    color: rgb(211, 129, 143);
+}
+
+.backgroun {
+    background-image: url(img/woman-4684702_640.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 92.6%;
+    margin: auto;
+}
+
+.text {
+    position: relative;
+    width: 40%;
+    left: 90px;
+    top: 250px;
+}
+
+.text h1 {
+    font-family: sans-serif;
+    color: white;
+}
+ .text button {
+    width: 150px;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    color: rgb(96, 94, 94);
+}
+
+.m1{
+    margin-top: 20px;
+    margin-left: 42%;
+    font-family: sans-serif;
+}
+
+.box {
+    display: flex;
+    margin: auto;
+    margin-left: 25%;
+    gap: 20px;
+}
+
+.box .card {
+    margin-top: 30px;
+    width: 200px;
+    height: 250px;
+    border: solid 2px none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    overflow: hidden;
+}
+
+.box .card img {
+    margin-left: 35px;
+    margin-top: 10px;
+    width: 130px;
+    height: 140px;
+}
+
+.box .card p, h4{
+    margin-top: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.box .card h4 {
+    margin-top: 0;
+}
+
+.m2 {
+    margin-top: 30px;
+    text-align: center;
+    font-family: sans-serif;
+}
